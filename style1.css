@@ -1,0 +1,133 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: fantasy;
+    }
+    header {
+        margin-left: 5%;
+    }
+    .logo {
+        box-shadow: 0px 6px 3px -3px rgba(0,0,0,0.85);
+        position: relative;
+        z-index: 999;
+    }
+    .socials {
+        display: inline;
+        float: right;
+    }
+    .socials img {
+        width: 10%;
+        margin: 5%;
+        margin-top: 10%;
+    }
+    nav {
+        margin-top: -1%;
+        height: 50px;
+        padding-top: 25px;
+        background: linear-gradient(-90deg, purple, blue, darkblue);
+    }
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding-left: 5%;
+        font-family: fantasy;
+        border-right: solid 1px #ffffff;
+        padding-right: 5%;
+    }
+    .main {
+        background-color: lightgray;
+        height: 110px;
+        margin-top: 0;
+        padding-top: 1%;
+    }
+    .main .title {
+        height: 50px;
+        margin-left: 10%;
+        margin-right: 10%;
+        background-color: mediumpurple;
+        text-align: center;
+    }
+    .title h1 {
+        vertical-align: center;
+    }
+    .picture {
+        float: left;
+        width: 40%;
+        margin-left: 10%;
+        margin-top: 3%;
+        margin-right: 2%;
+        filter: contrast(4);
+    }
+    li {
+        list-style-type: none;
+        font-size: 16pt;
+    }
+    article h2 {
+        display: inline-block;
+        margin-top: 3%;
+    }
+    .second {
+        float: left;
+        margin-left: 10%;
+        margin-top: 3%;
+        width: 40%;
+    }
+    .second p {
+        display: block;
+    }
+    .flexy {
+        display: flex;
+    }
+    .comments {
+        flex: 1;
+        margin-left: 2%;
+        margin-top: 50px;
+    }
+    .comments h2 {
+        text-align: center;
+    }
+    .comment img {
+        width: 10%;
+        display: inline-block;
+        float: left;
+        margin-right: 2%;
+    }
+    .comment a {
+        text-decoration: none;
+        color: mediumpurple;
+        font-size: 14pt;
+    }
+    .comment p {
+        width: 75%;
+    }
+    .comment {
+        margin-left: 15%;
+    }
+    .date {
+        border-bottom: solid 1px lightgrey;
+        border-top: solid 1px lightgrey;
+        padding-left: 2%;
+    }
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      border: none;
+      outline: none;
+      background-color: purple;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 25px;
+        font-size: 16pt;
+    }
+    #myBtn:hover {
+      background-color: #555;
+    }
+@media (max-width: 920px) {
+    .picture img{
+        width: 300px;
+    }
+}

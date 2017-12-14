@@ -1,0 +1,31 @@
+body{margin:0;padding:0;font-family:fantasy;}
+header{margin-left:5%;}
+.logo{box-shadow:0px 6px 3px -3px rgba(0,0,0,0.85);position:absolute;z-index:999;}
+.socials{display:inline;float:right;}
+.socials img{width:10%;margin:5%;margin-top:10%;}
+.banner{position:relative;width:100%;opacity:1;filter:contrast(2.5);margin-bottom:-5px;}
+.bantext{position:absolute;margin-top:50%;z-index:100;padding-left:5%;width:95%;background:rgba(0,0,0,0.7);height:110px;color:white;}
+.call{position:sticky;width:250px;z-index:999;left:65%;margin-top:-275px;height:auto;}
+.yellow{background-color:yellow;height:55px;padding:20px 20px 15px 20px;}
+.white{background-color:white;height:auto;padding:20px 20px 15px 20px;}
+nav{margin-top:0;height:50px;padding-top:25px;background:linear-gradient(-90deg, purple, blue, darkblue);}
+nav a{color:white;text-decoration:none;padding-left:2%;font-family:fantasy;border-right:solid 1px #ffffff;padding-right:2%;}
+article{height:300px;width:300px;margin:20px;color:black;}
+.mainflex{display:flex;flex-direction:row;justify-content:center;text-align:center;background-color:darkgrey;padding-bottom:5%;}
+.art1{background:linear-gradient(rgba(0,0,255,0.5), rgba(0,0,255,0.5)), url("cone.jpg");background-size:cover;}
+.art2{background:linear-gradient(rgba(255,0,0,0.5), rgba(255,0,0,0.5)),url("deryck.jpg");background-size:cover;}
+.art3{background:linear-gradient(rgba(0,255,0,0.5), rgba(0,255,0,0.5)),url("dave.jpg");background-size:cover;}
+.band{text-align:center;background-color:darkgrey;margin-top:0;margin-bottom:0;padding-top:25px;}
+article h1{margin-top:50%;margin-left:25%;margin-right:25%;}
+footer{margin-left:10%;}
+footer h2{color:mediumpurple;}
+footer h4{color:mediumpurple;}
+footer p{border-left:thick solid mediumpurple;padding-left:5%;width:15%;display:inline-block;margin-left:5%;}
+footer .headers{float:left;}
+footer a{color:mediumpurple;display:block;padding-top:15px;text-decoration:none;}
+.colorspace{background:linear-gradient(-90deg, purple, blue, darkblue);width:60%;height:215px;float:right;padding-left:3%;}
+.colorspace h2{color:white !important;width:35%;}
+.smaller{font-size:12pt;margin-top:-25%;}
+@media (max-width:720px){.mainflex{display:flex;flex-direction:column;justify-content:center;text-align:center;background-color:darkgrey;padding-bottom:5%;}
+nav a{display:block;}
+nav{height:150px;}
